@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-nunito">
+
+    <div class="flex flex-col h-screen bg-gradient-to-t from-indigo-200 overflow-hidden">
+        <nav class="w-full fixed top-0 bg-white z-10">
+            <div class="container mx-auto py-5 flex justify-between">
+                <div class="flex items-center gap-2">
+                    <span class="text-2xl font-bold text-indigo-900">Fotografia z pasją</span>
+                </div>
+        
+        <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+
+
+
+
+
+<li class="hover:text-gray-500" >
+    <a id="hLink" href="#kontakt">kontakt</a>
+</li>
+
+<li class="hover:text-gray-500">
+    <a id="hLink" href="#Zdjęcia">Zdjęcia</a>
+</li>
+</ul>
+    </div>
+</nav>
+
+
+        </ul>
+        
+        </div>
+        
+    </div>
+
+    
+</nav>
+<img class=" flex absolute bottom-0 right-0  lg:left-0 mx-auto h-5/6 object-cover "  src="https://www.pngmart.com/files/21/Women-Silhoutte-PNG.png" alt="logoo">
+
+<div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold"> 
+<span class=" flex text-gray-600"></span>
+<p class=" flex text-red-500">Fotograf</p>
+</div>
+<div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-red-500 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3">
+    <h1 class="text-4xl font-bold text-indigo-900">Mam na imie Klaudia</h1>
+    <p class="text-gray-400">Jestem studentką i zajmuję się fotografią krajobrazową.</p>
+    <a class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit" href="#contact">Kontakt</a>
+</div>
+
+<!--prace-->
+
+<div>
+    <div id="Zdjęcia" class="container mx-auto">
+        <div class="flex flex-col gap-3 items-center ">
+<h1 class=" flex text-indigo-600 font-bold"> Krajobrazy </h1>
+<h1 class="tex-3xl"></h1>
+<p class="w-1/2 text-center text-gray-400"> Ogół cech przyrodniczych i antropogenicznych wyróżniających określony teren, zespół  cech terenu.</p>
+        </div>
+<div class="p-5 flex flex-wrap items-center">
+
+    <div class="w-full md:w-4/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 m-1">
+        <img src="https://waskiel.pl/wp-content/uploads/2018/11/zarzadzanie-ostroscia-w-fotografii-krajobrazowej.jpg" alt="krajobraz1">
+    </div>
+
+    <div class="w-full md:w-4/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 m-1">
+        <img src="https://waskiel.pl/wp-content/uploads/2021/06/marek_waskiel_biebrza_narew-1-8.jpg" alt="krajobraz 2">
+    </div>
+
+    <div class="w-full md:w-4/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 m-1">
+        <img src="https://waskiel.pl/wp-content/uploads/2021/06/marek_waskiel_biebrza_narew-1-7.jpg" alt="krajobraz3">
+    </div>
+
+    <div class=" w-full md:w-4/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 m-1">
+        <img src="https://www.sony.com/articleimage/servlet/servlet.FileDownload?file=0155F000006ogWJQAY" alt="krajobraz 4">
+    </div>
+
+    
+    
+</div>
+
+
+</div>
+
+</div>
+
+<!--kontakt-->
+<div>
+    <div id="kontakt" class="container mx-auto">
+        <div class="flex flex-col gap-3 items-center ">
+            <h1 class="text-indigo-600 font-bold"> Kontakt </h1>
+            <h1 class="tex-3xl"> Napisz do mnie jeśli chcesz dowiedzieć się więcej! </h1>
+            <p class="w-1/2 text-center text-gray-400"> Zadaj mi pytanie </p>
+                    </div>
+                    <from class=" mt-5  p-8 flex flex-col gap-5 items-center">
+                        <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm " type="text" placeholder="Imie i Nazwisko">
+                        
+                        <textarea class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"  cols="30" rows="10" placeholder="Wiadomość"></textarea>
+                       <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">wyślij</button>
+                    </from>
+    </div>
+</div>
+    </body>
+</html>
+
+
+
